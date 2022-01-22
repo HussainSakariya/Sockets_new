@@ -1,0 +1,26 @@
+<div class="container-fluid" id='chat_box'>
+    <div class="row ">
+        <div class="col-md-3 border">
+            <h1><span id='userid'></span></h1>
+        </div>
+        <div class="col-md-9 border">
+            <h1>Chat Group</h1>
+
+        </div>
+    </div>
+    <div class="row ">
+        <div class="col-md-3 border" style="overflow-y:  scroll; height: 600px;">
+            <ul id="users" >
+
+            </ul>
+        </div>
+        <div class="col-md-9 border msg_box" style="overflow-y:  scroll; height: 600px;">
+            
+        </div>
+    </div>
+    
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/client.js"></script>
